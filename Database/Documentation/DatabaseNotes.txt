@@ -1,0 +1,7 @@
+Database Notes:
+
+* Geo.T_CountrySubDivisionType
+	- When CountryCode is Null, represents a type of division common to more than one country, such as Europen Union defined NUTS.
+
+* Geo.T_CountrySubDivision
+	- CountryCode field is necessary because T_CountrySubDivisionType CountryCode field can be null.
